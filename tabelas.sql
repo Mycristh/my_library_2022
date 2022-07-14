@@ -18,7 +18,7 @@ create table livros.lidos2022(
     idioma varchar,
     plataforma varchar,
     mes_termino varchar,
-    avaliacao float)
+    avaliacao numeric)
 
 create table livros.wish_list(
     id int,
@@ -31,6 +31,6 @@ create table livros.wish_list(
     pais_origem varchar,
     lingua varchar,
     ano_publicacao int,
-    valor float)
+    valor money)
 
 
